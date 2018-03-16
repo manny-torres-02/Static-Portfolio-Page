@@ -1,12 +1,13 @@
 /* nav bar */
 .nav-bar {
-  padding: 1em;
-  margin: auto;
-  background-color: black;
-  overflow: hidden;
+
+background-color: black;
 
 }
-
+.flex{
+  display:flex;
+  flex-direction: row-reverse;
+}
 ul {
 
   list-style-type: none;
@@ -16,7 +17,7 @@ padding:0;
 }
 
 li {
-  float: right;
+
   color: yellow;
   padding: 15px;
 
@@ -31,4 +32,8 @@ li a {
 
 body {
   background-color: grey;
+}
+
+#About-Me {
+  background-color: purple;
 }
